@@ -32,7 +32,9 @@ namespace EmployeeManagementSystem
 
         private void login_btn_Click(object sender, EventArgs e)
         {
-
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+            this.Hide();
         }
     }
 }

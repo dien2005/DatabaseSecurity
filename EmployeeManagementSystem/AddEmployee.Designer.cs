@@ -32,6 +32,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.phongbancbx = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.searchbtn = new System.Windows.Forms.Button();
+            this.searchtxt = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -39,10 +43,6 @@
             this.addEmployee_deleteBtn = new System.Windows.Forms.Button();
             this.addEmployee_updateBtn = new System.Windows.Forms.Button();
             this.addEmployee_addBtn = new System.Windows.Forms.Button();
-            this.searchtxt = new System.Windows.Forms.TextBox();
-            this.searchbtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.phongbancbx = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -63,6 +63,45 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(661, 273);
             this.panel1.TabIndex = 0;
+            // 
+            // phongbancbx
+            // 
+            this.phongbancbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phongbancbx.FormattingEnabled = true;
+            this.phongbancbx.Location = new System.Drawing.Point(492, 8);
+            this.phongbancbx.Name = "phongbancbx";
+            this.phongbancbx.Size = new System.Drawing.Size(149, 28);
+            this.phongbancbx.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(402, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 34);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "FILTER";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // searchbtn
+            // 
+            this.searchbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.searchbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchbtn.Location = new System.Drawing.Point(312, 5);
+            this.searchbtn.Name = "searchbtn";
+            this.searchbtn.Size = new System.Drawing.Size(84, 34);
+            this.searchbtn.TabIndex = 17;
+            this.searchbtn.Text = "SEARCH";
+            this.searchbtn.UseVisualStyleBackColor = false;
+            // 
+            // searchtxt
+            // 
+            this.searchtxt.Location = new System.Drawing.Point(79, 5);
+            this.searchtxt.Multiline = true;
+            this.searchtxt.Name = "searchtxt";
+            this.searchtxt.Size = new System.Drawing.Size(227, 34);
+            this.searchtxt.TabIndex = 2;
             // 
             // dataGridView1
             // 
@@ -210,50 +249,11 @@
             this.addEmployee_addBtn.UseVisualStyleBackColor = false;
             this.addEmployee_addBtn.Click += new System.EventHandler(this.addEmployee_addBtn_Click);
             // 
-            // searchtxt
-            // 
-            this.searchtxt.Location = new System.Drawing.Point(79, 5);
-            this.searchtxt.Multiline = true;
-            this.searchtxt.Name = "searchtxt";
-            this.searchtxt.Size = new System.Drawing.Size(227, 34);
-            this.searchtxt.TabIndex = 2;
-            // 
-            // searchbtn
-            // 
-            this.searchbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.searchbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchbtn.Location = new System.Drawing.Point(312, 5);
-            this.searchbtn.Name = "searchbtn";
-            this.searchbtn.Size = new System.Drawing.Size(84, 34);
-            this.searchbtn.TabIndex = 17;
-            this.searchbtn.Text = "SEARCH";
-            this.searchbtn.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(402, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 34);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "FILTER";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // phongbancbx
-            // 
-            this.phongbancbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phongbancbx.FormattingEnabled = true;
-            this.phongbancbx.Location = new System.Drawing.Point(492, 8);
-            this.phongbancbx.Name = "phongbancbx";
-            this.phongbancbx.Size = new System.Drawing.Size(149, 28);
-            this.phongbancbx.TabIndex = 19;
-            // 
             // AddEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.Azure;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
