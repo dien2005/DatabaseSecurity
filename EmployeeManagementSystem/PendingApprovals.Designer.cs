@@ -1,16 +1,9 @@
-﻿namespace EmployeeManagementSystem
+namespace EmployeeManagementSystem
 {
     partial class PendingApprovals
     {
-        /// <summary> 
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,199 +15,315 @@
 
         #region Component Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.searchbtn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.searchtxt = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.phongbancbx = new System.Windows.Forms.ComboBox();
-            this.rejectbtn = new System.Windows.Forms.Button();
-            this.approvebtn = new System.Windows.Forms.Button();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblAction = new System.Windows.Forms.Label();
+            this.txtAction = new System.Windows.Forms.TextBox();
+            this.lblTarget = new System.Windows.Forms.Label();
+            this.txtTarget = new System.Windows.Forms.TextBox();
+            this.lblRequestedBy = new System.Windows.Forms.Label();
+            this.txtRequestedBy = new System.Windows.Forms.TextBox();
+            this.lblPayload = new System.Windows.Forms.Label();
+            this.txtPayload = new System.Windows.Forms.TextBox();
+            this.lblStatusFilter = new System.Windows.Forms.Label();
+            this.cboStatusFilter = new System.Windows.Forms.ComboBox();
+            this.btnApprove = new System.Windows.Forms.Button();
+            this.btnReject = new System.Windows.Forms.Button();
+            this.lblStatusMsg = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblGridTitle = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.dgvApprovals = new System.Windows.Forms.DataGridView();
+            this.lblCount = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvApprovals)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.searchbtn);
-            this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.searchtxt);
-            this.panel2.Location = new System.Drawing.Point(250, 15);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(428, 492);
-            this.panel2.TabIndex = 6;
-            // 
-            // searchbtn
-            // 
-            this.searchbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.searchbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchbtn.Location = new System.Drawing.Point(330, 9);
-            this.searchbtn.Name = "searchbtn";
-            this.searchbtn.Size = new System.Drawing.Size(84, 34);
-            this.searchbtn.TabIndex = 23;
-            this.searchbtn.Text = "SEARCH";
-            this.searchbtn.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 48);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(403, 430);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 19);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Search:";
-            // 
-            // searchtxt
-            // 
-            this.searchtxt.Location = new System.Drawing.Point(65, 9);
-            this.searchtxt.Multiline = true;
-            this.searchtxt.Name = "searchtxt";
-            this.searchtxt.Size = new System.Drawing.Size(259, 34);
-            this.searchtxt.TabIndex = 22;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.phongbancbx);
-            this.panel1.Controls.Add(this.rejectbtn);
-            this.panel1.Controls.Add(this.approvebtn);
+            this.panel1.Controls.Add(this.lblTitle);
+            this.panel1.Controls.Add(this.lblAction);
+            this.panel1.Controls.Add(this.txtAction);
+            this.panel1.Controls.Add(this.lblTarget);
+            this.panel1.Controls.Add(this.txtTarget);
+            this.panel1.Controls.Add(this.lblRequestedBy);
+            this.panel1.Controls.Add(this.txtRequestedBy);
+            this.panel1.Controls.Add(this.lblPayload);
+            this.panel1.Controls.Add(this.txtPayload);
+            this.panel1.Controls.Add(this.lblStatusFilter);
+            this.panel1.Controls.Add(this.cboStatusFilter);
+            this.panel1.Controls.Add(this.btnApprove);
+            this.panel1.Controls.Add(this.btnReject);
+            this.panel1.Controls.Add(this.lblStatusMsg);
             this.panel1.Location = new System.Drawing.Point(14, 15);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(223, 496);
-            this.panel1.TabIndex = 5;
+            this.panel1.TabIndex = 0;
             // 
-            // button1
+            // lblTitle
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(14, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 34);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "FILTER";
-            this.button1.UseVisualStyleBackColor = false;
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Bold);
+            this.lblTitle.Location = new System.Drawing.Point(12, 15);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(144, 18);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "CHI TIẾT YÊU CẦU";
             // 
-            // label2
+            // lblAction
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 40);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 19);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "Pending/Approve";
+            this.lblAction.AutoSize = true;
+            this.lblAction.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.lblAction.Location = new System.Drawing.Point(14, 45);
+            this.lblAction.Name = "lblAction";
+            this.lblAction.Size = new System.Drawing.Size(95, 14);
+            this.lblAction.TabIndex = 1;
+            this.lblAction.Text = "Loại hành động:";
             // 
-            // phongbancbx
+            // txtAction
             // 
-            this.phongbancbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phongbancbx.FormattingEnabled = true;
-            this.phongbancbx.Location = new System.Drawing.Point(14, 62);
-            this.phongbancbx.Name = "phongbancbx";
-            this.phongbancbx.Size = new System.Drawing.Size(188, 28);
-            this.phongbancbx.TabIndex = 27;
+            this.txtAction.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.txtAction.Location = new System.Drawing.Point(14, 65);
+            this.txtAction.Name = "txtAction";
+            this.txtAction.ReadOnly = true;
+            this.txtAction.Size = new System.Drawing.Size(192, 22);
+            this.txtAction.TabIndex = 2;
             // 
-            // rejectbtn
+            // lblTarget
             // 
-            this.rejectbtn.BackColor = System.Drawing.Color.Tomato;
-            this.rejectbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rejectbtn.FlatAppearance.BorderSize = 0;
-            this.rejectbtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.rejectbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.rejectbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.rejectbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rejectbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rejectbtn.ForeColor = System.Drawing.Color.White;
-            this.rejectbtn.Location = new System.Drawing.Point(14, 202);
-            this.rejectbtn.Margin = new System.Windows.Forms.Padding(2);
-            this.rejectbtn.Name = "rejectbtn";
-            this.rejectbtn.Size = new System.Drawing.Size(188, 37);
-            this.rejectbtn.TabIndex = 19;
-            this.rejectbtn.Text = "✖ Reject";
-            this.rejectbtn.UseVisualStyleBackColor = false;
+            this.lblTarget.AutoSize = true;
+            this.lblTarget.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.lblTarget.Location = new System.Drawing.Point(14, 95);
+            this.lblTarget.Name = "lblTarget";
+            this.lblTarget.Size = new System.Drawing.Size(64, 14);
+            this.lblTarget.TabIndex = 3;
+            this.lblTarget.Text = "Bảng đích:";
             // 
-            // approvebtn
+            // txtTarget
             // 
-            this.approvebtn.BackColor = System.Drawing.Color.Green;
-            this.approvebtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.approvebtn.FlatAppearance.BorderSize = 0;
-            this.approvebtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.approvebtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.approvebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.approvebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.approvebtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.approvebtn.ForeColor = System.Drawing.Color.White;
-            this.approvebtn.Location = new System.Drawing.Point(14, 161);
-            this.approvebtn.Margin = new System.Windows.Forms.Padding(2);
-            this.approvebtn.Name = "approvebtn";
-            this.approvebtn.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.approvebtn.Size = new System.Drawing.Size(188, 37);
-            this.approvebtn.TabIndex = 17;
-            this.approvebtn.Text = "✔ Approve ";
-            this.approvebtn.UseVisualStyleBackColor = false;
+            this.txtTarget.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.txtTarget.Location = new System.Drawing.Point(14, 115);
+            this.txtTarget.Name = "txtTarget";
+            this.txtTarget.ReadOnly = true;
+            this.txtTarget.Size = new System.Drawing.Size(192, 22);
+            this.txtTarget.TabIndex = 4;
+            // 
+            // lblRequestedBy
+            // 
+            this.lblRequestedBy.AutoSize = true;
+            this.lblRequestedBy.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.lblRequestedBy.Location = new System.Drawing.Point(14, 145);
+            this.lblRequestedBy.Name = "lblRequestedBy";
+            this.lblRequestedBy.Size = new System.Drawing.Size(90, 14);
+            this.lblRequestedBy.TabIndex = 5;
+            this.lblRequestedBy.Text = "Người yêu cầu:";
+            // 
+            // txtRequestedBy
+            // 
+            this.txtRequestedBy.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.txtRequestedBy.Location = new System.Drawing.Point(14, 165);
+            this.txtRequestedBy.Name = "txtRequestedBy";
+            this.txtRequestedBy.ReadOnly = true;
+            this.txtRequestedBy.Size = new System.Drawing.Size(192, 22);
+            this.txtRequestedBy.TabIndex = 6;
+            // 
+            // lblPayload
+            // 
+            this.lblPayload.AutoSize = true;
+            this.lblPayload.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.lblPayload.Location = new System.Drawing.Point(14, 195);
+            this.lblPayload.Name = "lblPayload";
+            this.lblPayload.Size = new System.Drawing.Size(108, 14);
+            this.lblPayload.TabIndex = 7;
+            this.lblPayload.Text = "Nội dung thay đổi:";
+            // 
+            // txtPayload
+            // 
+            this.txtPayload.Font = new System.Drawing.Font("Consolas", 8.25F);
+            this.txtPayload.Location = new System.Drawing.Point(14, 215);
+            this.txtPayload.Multiline = true;
+            this.txtPayload.Name = "txtPayload";
+            this.txtPayload.ReadOnly = true;
+            this.txtPayload.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtPayload.Size = new System.Drawing.Size(192, 90);
+            this.txtPayload.TabIndex = 8;
+            // 
+            // lblStatusFilter
+            // 
+            this.lblStatusFilter.AutoSize = true;
+            this.lblStatusFilter.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.lblStatusFilter.Location = new System.Drawing.Point(14, 315);
+            this.lblStatusFilter.Name = "lblStatusFilter";
+            this.lblStatusFilter.Size = new System.Drawing.Size(117, 14);
+            this.lblStatusFilter.TabIndex = 9;
+            this.lblStatusFilter.Text = "Lọc theo trạng thái:";
+            // 
+            // cboStatusFilter
+            // 
+            this.cboStatusFilter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboStatusFilter.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.cboStatusFilter.FormattingEnabled = true;
+            this.cboStatusFilter.Items.AddRange(new object[] {
+            "ALL",
+            "PENDING",
+            "APPROVED",
+            "REJECTED"});
+            this.cboStatusFilter.Location = new System.Drawing.Point(14, 335);
+            this.cboStatusFilter.Name = "cboStatusFilter";
+            this.cboStatusFilter.Size = new System.Drawing.Size(192, 22);
+            this.cboStatusFilter.TabIndex = 10;
+            // 
+            // btnApprove
+            // 
+            this.btnApprove.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnApprove.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnApprove.FlatAppearance.BorderSize = 0;
+            this.btnApprove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApprove.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.btnApprove.ForeColor = System.Drawing.Color.White;
+            this.btnApprove.Location = new System.Drawing.Point(14, 375);
+            this.btnApprove.Name = "btnApprove";
+            this.btnApprove.Size = new System.Drawing.Size(92, 35);
+            this.btnApprove.TabIndex = 11;
+            this.btnApprove.Text = "Duyệt (✓)";
+            this.btnApprove.UseVisualStyleBackColor = false;
+            // 
+            // btnReject
+            // 
+            this.btnReject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.btnReject.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReject.FlatAppearance.BorderSize = 0;
+            this.btnReject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReject.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.btnReject.ForeColor = System.Drawing.Color.White;
+            this.btnReject.Location = new System.Drawing.Point(114, 375);
+            this.btnReject.Name = "btnReject";
+            this.btnReject.Size = new System.Drawing.Size(92, 35);
+            this.btnReject.TabIndex = 12;
+            this.btnReject.Text = "Từ chối (X)";
+            this.btnReject.UseVisualStyleBackColor = false;
+            // 
+            // lblStatusMsg
+            // 
+            this.lblStatusMsg.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.lblStatusMsg.ForeColor = System.Drawing.Color.Red;
+            this.lblStatusMsg.Location = new System.Drawing.Point(14, 420);
+            this.lblStatusMsg.Name = "lblStatusMsg";
+            this.lblStatusMsg.Size = new System.Drawing.Size(192, 60);
+            this.lblStatusMsg.TabIndex = 13;
+            this.lblStatusMsg.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblGridTitle);
+            this.panel2.Controls.Add(this.txtSearch);
+            this.panel2.Controls.Add(this.btnSearch);
+            this.panel2.Controls.Add(this.btnRefresh);
+            this.panel2.Controls.Add(this.dgvApprovals);
+            this.panel2.Controls.Add(this.lblCount);
+            this.panel2.Location = new System.Drawing.Point(250, 15);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(428, 496);
+            this.panel2.TabIndex = 1;
+            // 
+            // lblGridTitle
+            // 
+            this.lblGridTitle.AutoSize = true;
+            this.lblGridTitle.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGridTitle.Location = new System.Drawing.Point(14, 15);
+            this.lblGridTitle.Name = "lblGridTitle";
+            this.lblGridTitle.Size = new System.Drawing.Size(160, 18);
+            this.lblGridTitle.TabIndex = 0;
+            this.lblGridTitle.Text = "Danh sách chờ duyệt";
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.txtSearch.Location = new System.Drawing.Point(174, 14);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(106, 22);
+            this.txtSearch.TabIndex = 1;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnSearch.Location = new System.Drawing.Point(285, 12);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(65, 26);
+            this.btnSearch.TabIndex = 2;
+            this.btnSearch.Text = "Tìm kiếm";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.BackColor = System.Drawing.Color.Teal;
+            this.btnRefresh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRefresh.FlatAppearance.BorderSize = 0;
+            this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefresh.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnRefresh.ForeColor = System.Drawing.Color.White;
+            this.btnRefresh.Location = new System.Drawing.Point(355, 12);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(60, 26);
+            this.btnRefresh.TabIndex = 3;
+            this.btnRefresh.Text = "Tải lại";
+            this.btnRefresh.UseVisualStyleBackColor = false;
+            // 
+            // dgvApprovals
+            // 
+            this.dgvApprovals.AllowUserToAddRows = false;
+            this.dgvApprovals.AllowUserToDeleteRows = false;
+            this.dgvApprovals.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvApprovals.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvApprovals.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvApprovals.ColumnHeadersHeight = 30;
+            this.dgvApprovals.EnableHeadersVisualStyles = false;
+            this.dgvApprovals.Location = new System.Drawing.Point(14, 50);
+            this.dgvApprovals.Name = "dgvApprovals";
+            this.dgvApprovals.ReadOnly = true;
+            this.dgvApprovals.RowHeadersVisible = false;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvApprovals.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvApprovals.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvApprovals.Size = new System.Drawing.Size(400, 410);
+            this.dgvApprovals.TabIndex = 4;
+            // 
+            // lblCount
+            // 
+            this.lblCount.AutoSize = true;
+            this.lblCount.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Italic);
+            this.lblCount.Location = new System.Drawing.Point(14, 470);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(90, 13);
+            this.lblCount.TabIndex = 5;
+            this.lblCount.Text = "Hien thi 0 ban ghi";
             // 
             // PendingApprovals
             // 
@@ -225,27 +334,39 @@
             this.Controls.Add(this.panel1);
             this.Name = "PendingApprovals";
             this.Size = new System.Drawing.Size(692, 526);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvApprovals)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button searchbtn;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox searchtxt;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button rejectbtn;
-        private System.Windows.Forms.Button approvebtn;
-        private System.Windows.Forms.ComboBox phongbancbx;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblAction;
+        private System.Windows.Forms.TextBox txtAction;
+        private System.Windows.Forms.Label lblTarget;
+        private System.Windows.Forms.TextBox txtTarget;
+        private System.Windows.Forms.Label lblRequestedBy;
+        private System.Windows.Forms.TextBox txtRequestedBy;
+        private System.Windows.Forms.Label lblPayload;
+        private System.Windows.Forms.TextBox txtPayload;
+        private System.Windows.Forms.Label lblStatusFilter;
+        private System.Windows.Forms.ComboBox cboStatusFilter;
+        private System.Windows.Forms.Button btnApprove;
+        private System.Windows.Forms.Button btnReject;
+        private System.Windows.Forms.Label lblStatusMsg;
+
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblGridTitle;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.DataGridView dgvApprovals;
+        private System.Windows.Forms.Label lblCount;
     }
 }

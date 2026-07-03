@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagementSystem
+namespace EmployeeManagementSystem
 {
     partial class AuditLog
     {
@@ -182,6 +182,8 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(212, 20);
             this.dateTimePicker2.TabIndex = 30;
+            this.dateTimePicker2.ShowCheckBox = true;
+            this.dateTimePicker2.Checked = false;
             // 
             // dateTimePicker1
             // 
@@ -190,6 +192,8 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(210, 20);
             this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker1.ShowCheckBox = true;
+            this.dateTimePicker1.Checked = false;
             // 
             // label4
             // 
